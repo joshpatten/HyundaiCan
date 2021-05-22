@@ -18,7 +18,7 @@ The following equipment is needed at minimum to interface with the OEM S/PDIF an
 ## Connection diagram
 The following is an example fiagram of how to connect the necessary components:
 
-![Diagram](CANBus Connections.png)
+![Diagram](images/CANBusConnections.png)
 
 ## Raspberry Pi Setup
 Raspberry Pi Setup information can be found in the [Installation Guide](INSTALL.md)
