@@ -13,6 +13,12 @@ The following equipment is needed at minimum to interface with the OEM S/PDIF an
 * [Fault Tolerant CAN converter](https://www.aliexpress.com/item/4000591542373.html)
 * [HiFiBerry Digi+ I/O](https://www.hifiberry.com/shop/boards/hifiberry-digi-io/)
 * [12V delay relay](https://www.amazon.com/gp/product/B08V5CL4BD/)
+* [12V to 5V power supply](https://www.amazon.com/dp/B00CBCGAL8)
 
 ## Connection diagram
-TBD
+The following is an example fiagram of how to connect the necessary components:
+
+![Diagram](CANBus Connections.png)
+
+## Raspberry Pi Setup
+Raspberry Pi Setup information can be found in the [Installation Guide](INSTALL.md)
