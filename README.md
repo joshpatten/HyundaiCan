@@ -16,7 +16,7 @@ The following equipment is needed at minimum to interface with the OEM S/PDIF an
 * [12V to 5V power supply](https://www.amazon.com/dp/B00CBCGAL8)
 
 ## Connection diagram
-The following is an example fiagram of how to connect the necessary components:
+The following is an example diagram of how to connect the necessary components:
 
 ![Diagram](images/CANBusConnections.png)
 
