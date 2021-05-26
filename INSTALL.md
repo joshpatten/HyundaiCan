@@ -10,19 +10,23 @@ Run the following commands to install the necessary prerequisites:
 
     cd ~
     apt install -y git wget openjdk-8-jdk python3-pip audacity libpulse-dev libavcodec-dev libavformat-dev libswresample-dev
-    wget https://www.roomeqwizard.com/installers/REW_linux_5_19.sh
-    chmod +x REW_linux_5_19.sh
-    sudo ./REW_linux_5_19.sH
     git clone https://github.com/Shulyaka/pareceive.git
     cd pareceive
     make
-    sudp cp -a pareceive /usr/local/bin
+    sudo cp -a pareceive /usr/local/bin
     cd ..
     git clone https://github.com/joshpatten/HyundaiCan.git
     sudo cp HyundaiCan/receive.py /usr/local/bin
     sudo cp HyundaiCan/receive.ini /usr/local/etc
     cd /usr/local/etc
     sudo wget https://raw.githubusercontent.com/commaai/opendbc/master/hyundai_2015_mcan.dbc
+
+# Optional Programs
+Room EQ Wizard is useful for tuning a DSP, but is not required. To install Room EQ Wizard run the following commands:
+
+    wget https://www.roomeqwizard.com/installers/REW_linux_5_19.sh
+    chmod +x REW_linux_5_19.sh
+    sudo ./REW_linux_5_19.sh
 
 # Settings
 Add the following 2 lines to **/boot/config.txt** to enable CANbus and HiFiBerry
