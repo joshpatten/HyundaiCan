@@ -24,6 +24,7 @@ Run the following commands to install the necessary prerequisites:
 # Optional Programs
 Room EQ Wizard is useful for tuning a DSP, but is not required. To install Room EQ Wizard run the following commands:
 
+    cd ~
     wget https://www.roomeqwizard.com/installers/REW_linux_5_19.sh
     chmod +x REW_linux_5_19.sh
     sudo ./REW_linux_5_19.sh
