@@ -180,7 +180,7 @@ def listen_loop(test):
 		except (KeyError, AttributeError):
 			pass
 		if msg is None:
-			G.q.put({NO_OP, 0})
+			G.q.put({NO_OP: 0})
 	
 def main(test=False):
 	G.db = cantools.database.load_file(G.config.get('General', 'can_file'))
